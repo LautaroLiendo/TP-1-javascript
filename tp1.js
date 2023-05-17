@@ -56,12 +56,34 @@
 
 
 // 9-----------------------------------------------
-let str =prompt("Escribe Una Palabra"); 
+// let str =prompt("Escribe Una Palabra"); 
 
-for(let i=0; i< str.length; i++){
-    let vocal=str.charAt(i);
-    if  (vocal =="a" || vocal =="e" || vocal =="i" || vocal =="o" || vocal =="u"
-        || vocal =="A" || vocal =="E" || vocal =="I" || vocal =="O" || vocal =="U")
+// for(let i=0; i< str.length; i++){
+//     let vocal=str.charAt(i);
+//     if  (vocal =="a" || vocal =="e" || vocal =="i" || vocal =="o" || vocal =="u"
+//         || vocal =="A" || vocal =="E" || vocal =="I" || vocal =="O" || vocal =="U")
 
-    {document.write(str.charAt(i))}}
+//     {document.write(str.charAt(i))}}
+
+
+// 10------------------------------------
+
+
+let numero = prompt("Ingrese un número:");
+
+if (numero % 2 === 0) {
+  document.write("El número es divisible por 2");
+} else if (numero % 3 === 0) {
+  document.write("El número es divisible por 3");
+} else if (numero % 5 === 0) {
+  document.write("El número es divisible por 5");
+} else if (numero % 7 === 0) {
+  document.write("El número es divisible por 7");
+} else {
+  document.write("El número no es divisible por 2, 3, 5 ni 7");
+}
+
+// -------11---------------
+// no lo pude hacer
+
 
